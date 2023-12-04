@@ -4,6 +4,7 @@ import ShopTopMenu from '../Components/Pages Component/Shop/ShopTopMenu'
 import ShopMainMenu from '../Components/Pages Component/Shop/ShopMainMenu'
 import AllProduct from '../Components/Pages Component/Shop/AllProduct'
 import { getProduct } from '../helper/helper'
+import Footer from '../Components/Public Component/Footer'
 
 const Shop = () => {
     let [product, setProduct] = useState([]);
@@ -31,8 +32,8 @@ const Shop = () => {
                     }                    
                 </div>
             </div>
-        </section>
-      
+      </section>
+      <Footer/>             
     </>
   )
 }
