@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 const TopMenu = () => {
   return (
@@ -15,8 +16,8 @@ const TopMenu = () => {
               <div className="">
                 <ul className='flex flex-wrap'>
                   <li className='px-[18px] hover:text-[#3577f0] ease-in-out duration-300 ' ><a href=""></a>Help</li>
-                  <li className='px-[18px] hover:text-[#3577f0] ease-in-out duration-300 ' ><a href=""></a>join Us</li>
-                  <li className='px-[18px] hover:text-[#3577f0] ease-in-out duration-300 ' ><a href=""></a>Sign in</li>
+                  <li className='px-[18px] hover:text-[#3577f0] ease-in-out duration-300 ' ><Link to="/signup">join Us</Link></li>
+                  <li className='px-[18px] hover:text-[#3577f0] ease-in-out duration-300 ' ><Link to="/signin">Sign in</Link></li>
                 </ul>
               </div>
           </div>

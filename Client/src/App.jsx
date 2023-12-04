@@ -16,6 +16,8 @@ import NewProduct from './Pages/Dashboard/NewProduct';
 import User from './Pages/Dashboard/User';
 import UpdateProduct from './Pages/Dashboard/Component/UpdateProduct';
 import ProductDetails from './Components/Pages Component/Shop/ProductDetails';
+import SignIn from './Components/Public Component/SignIn';
+import SignUp from './Components/Public Component/SignUp';
 
 function App() {
   return (
@@ -27,6 +29,8 @@ function App() {
           <Route  path='/about' element={<About/>}/>
           <Route  path='/blog' element={<Blog/>}/>
           <Route  path='/contact' element={<Contact/>}/>
+          <Route  path='/signin' element={<SignIn/>}/>
+          <Route  path='/signup' element={<SignUp/>}/>
           <Route  path='/dashboard' element={<Dashboard/>}/>
           <Route  path='/dashboard/products' element={<Products/>}/>
           <Route  path='/dashboard/newproduct' element={<NewProduct/>}/>

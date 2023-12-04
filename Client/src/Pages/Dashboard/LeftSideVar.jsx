@@ -32,7 +32,7 @@ const LeftSideVar = () => {
     if (menuElement && !menuElement.contains(event.target)) {
       setToggledOne(false);
       setToggledTwo(false);
-      setToggledThree(false);
+    //   setToggledThree(false);
       setToggledFour(false);
     }
   };
