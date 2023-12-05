@@ -62,7 +62,7 @@ const LeftSideVar = () => {
                     </div>
                     <div className="is-scrollbar-hidden flex-grow flex-shrink-0 flex flex-col space-y-4 overflow-y-auto pt-6">
                         {/* bg-[rgba(79,70,229,.1)] */}
-                        <Link data-tooltip-id="my-tooltip-1" className='flex h-11 w-11 items-center justify-center rounded-lg  text-primary outline-none transition-colors duration-200 hover:bg-[rgba(79,70,229,.2)] focus:bg-[rgba(79,70,229,.2)] active:bg-[rgba(79,70,229,.25)]'>
+                        <Link to="/dashboard" data-tooltip-id="my-tooltip-1" className='flex h-11 w-11 items-center justify-center rounded-lg  text-primary outline-none transition-colors duration-200 hover:bg-[rgba(79,70,229,.2)] focus:bg-[rgba(79,70,229,.2)] active:bg-[rgba(79,70,229,.25)]'>
                             <img src="../../../public/assets/images/house user.svg" alt="" />
                         </Link>
                         <ReactTooltip
